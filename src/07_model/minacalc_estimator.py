@@ -41,7 +41,7 @@ _DAN_ORDER = [
     "1st", "2nd", "3rd", "4th", "5th",
     "6th", "7th", "8th", "9th", "10th",
     "Alpha", "Beta", "Gamma", "Delta", "Epsilon",
-    "Zeta", "Eta", "Theta", "Iota", "Kappa",
+    "Zeta", "Eta", "Theta", "Iota", "Kappa", "Lambda",
 ]
 
 _DAN_LABELS = {
@@ -51,7 +51,7 @@ _DAN_LABELS = {
     "10th": "10th Dan", "Alpha": "Alpha", "Beta": "Beta",
     "Gamma": "Gamma", "Delta": "Delta", "Epsilon": "Epsilon",
     "Zeta": "Zeta", "Eta": "Eta", "Theta": "Theta",
-    "Iota": "Iota", "Kappa": "Kappa",
+    "Iota": "Iota", "Kappa": "Kappa", "Lambda": "Lambda,
 }
 
 _scales: dict | None = None
@@ -77,7 +77,7 @@ _DAN_SHORT = {
     "1st": "1", "2nd": "2", "3rd": "3", "4th": "4", "5th": "5",
     "6th": "6", "7th": "7", "8th": "8", "9th": "9", "10th": "10",
     "Alpha": "α", "Beta": "β", "Gamma": "γ", "Delta": "δ", "Epsilon": "ε",
-    "Zeta": "ζ", "Eta": "η", "Theta": "θ", "Iota": "ι", "Kappa": "κ",
+    "Zeta": "ζ", "Eta": "η", "Theta": "θ", "Iota": "ι", "Kappa": "κ", "Lambda": "λ"
 }
 
 
