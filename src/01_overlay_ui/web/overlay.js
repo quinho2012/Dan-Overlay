@@ -20,7 +20,8 @@ const DAN_PALETTES = {
   Eta: ["rgb(145,0,0)", "rgb(200,80,70)"],
   Theta: ["rgb(105,5,5)", "rgb(170,65,55)"],
   Iota: ["rgb(75,10,10)", "rgb(145,50,50)"],
-  Kappa: ["rgb(125,125,125)", "rgb(190,190,200)"]
+  Kappa: ["rgb(125,125,125)", "rgb(190,190,200)"],
+  Lambda: ["rgb(100,100,100)", "rgb(190,190,200)"]
 };
 
 const PALETTES_7K = {
@@ -68,7 +69,7 @@ const CELESTIAL_PNG = {
 const GREEK_PNG = {
   "Alpha": "11-alpha", "Beta": "12-beta", "Gamma": "13-gamma",
   "Delta": "14-delta", "Epsilon": "15-epsilon", "Zeta": "16-zeta",
-  "Eta": "17-eta", "Theta": "18-theta", "Iota": "19-iota", "Kappa": "20-kappa",
+  "Eta": "17-eta", "Theta": "18-theta", "Iota": "19-iota", "Kappa": "20-kappa", "Lambda": "21-Lambda"
 };
 
 // Signicial Greek symbol images (background for stages XI+)
