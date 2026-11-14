@@ -194,15 +194,32 @@ def _lookup_role_dan(value: float, role_thresholds: dict) -> tuple[str, float, f
 
 
 def _sublevel(position: float) -> str:
-    if position < 0.20:
+    if position < 0.03:
+        return "Baseline"
+    elif position < 0.10:
+        return "Bottom"
+    elif position < 0.20:
+        return "Bottom-Low"
+    elif position < 0.30:
         return "Low"
     elif position < 0.40:
-        return "Mid-Low"
+        return "Low-Mid"
     elif position < 0.60:
         return "Mid"
-    elif position < 0.80:
+    elif position < 0.68:
+        return "67 funny haha"
+    elif position < 0.69:
+        return "Mid"
+    elif position < 0.70:
         return "Mid-High"
-    return "High"
+    elif position < 0.80:
+        return "High"
+    elif position < 0.90:
+        return "High-Peak"
+    elif position < 0.97:
+        return "Peak"
+    return "Skyline"
+    
 
 
 def _dan_index(dan: str) -> int:
