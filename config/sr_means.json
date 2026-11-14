@@ -20,6 +20,7 @@
     "Theta": 10.74,
     "Iota": 11.68,
     "Kappa": 12.25
+    "Lambda": 13.20
   },
   "skillsets": {
     "jack": {
@@ -43,6 +44,7 @@
       "Theta": 10.96,
       "Iota": 12.27,
       "Kappa": 13.13
+      "Lambda": 14.60
     },
     "speed": {
       "1st": 2.94,
@@ -65,6 +67,7 @@
       "Theta": 10.67,
       "Iota": 11.16,
       "Kappa": 12.05
+      "Lambda": 13.00
     },
     "stamina": {
       "1st": 3.38,
@@ -87,6 +90,7 @@
       "Theta": 10.81,
       "Iota": 11.66,
       "Kappa": 12.41
+      "Lambda": 13.70
     },
     "tech": {
       "1st": 2.84,
@@ -109,6 +113,7 @@
       "Theta": 10.64,
       "Iota": 11.69,
       "Kappa": 12.1
+      "Lambda": 13.40
     }
   }
 }
