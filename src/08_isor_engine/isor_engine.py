@@ -44,7 +44,7 @@ DAN_ORDER = [
     "1st", "2nd", "3rd", "4th", "5th",
     "6th", "7th", "8th", "9th", "10th",
     "Alpha", "Beta", "Gamma", "Delta", "Epsilon",
-    "Zeta", "Eta", "Theta", "Iota", "Kappa"
+    "Zeta", "Eta", "Theta", "Iota", "Kappa", "Lambda",
 ]
 
 DAN_DISPLAY = {
@@ -55,7 +55,7 @@ DAN_DISPLAY = {
     "Alpha": "Alpha", "Beta": "Beta", "Gamma": "Gamma",
     "Delta": "Delta", "Epsilon": "Epsilon",
     "Zeta": "Zeta", "Eta": "Eta", "Theta": "Theta",
-    "Iota": "Iota", "Kappa": "Kappa",
+    "Iota": "Iota", "Kappa": "Kappa", "Lambda": "Lambda",
 }
 
 SUBLEVEL_QUINTILES = [
