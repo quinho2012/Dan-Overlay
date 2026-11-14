@@ -441,6 +441,27 @@
         },
         "duration_s": 140.5,
         "note_count": 2222
+},
+      "Lambda": {
+        "role_score": 49.89,
+        "overall_msd": 50.26,
+        "sample_count": 1,
+        "dispersion": 0.0,
+        "risk_flag": "weak",
+        "sample_scores": [
+          49.89
+        ],
+        "skillsets": {
+          "stream": 32.1,
+          "jumpstream": 34.98,
+          "handstream": 28.34,
+          "stamina": 48.61,
+          "jackspeed": 40.9,
+          "chordjack": 49.89,
+          "technical": 32.3
+        },
+        "duration_s": 140.5,
+        "note_count": 2222        
       }
     },
     "speed": {
@@ -859,7 +880,7 @@
         },
         "duration_s": 138.0,
         "note_count": 4412
-      },
+            },
       "Kappa": {
         "role_score": 47.21,
         "overall_msd": 47.55,
@@ -880,6 +901,27 @@
         },
         "duration_s": 146.3000030517578,
         "note_count": 4491
+      },
+      "Lambda": {
+        "role_score": 49.21,
+        "overall_msd": 49.55,
+        "sample_count": 1,
+        "dispersion": 0.0,
+        "risk_flag": "weak",
+        "sample_scores": [
+          49.21
+        ],
+        "skillsets": {
+          "stream": 49.21,
+          "jumpstream": 38.1,
+          "handstream": 35.14,
+          "stamina": 46.5,
+          "jackspeed": 31.78,
+          "chordjack": 33.94,
+          "technical": 47.41
+        },
+        "duration_s": 146.3000030517578,
+        "note_count": 4491        
       }
     },
     "tech": {
@@ -1316,6 +1358,27 @@
         },
         "duration_s": 142.10000610351562,
         "note_count": 4449
+},
+      "Lambda": {
+        "role_score": 50.07,
+        "overall_msd": 51.07,
+        "sample_count": 1,
+        "dispersion": 0.0,
+        "risk_flag": "weak",
+        "sample_scores": [
+          50.07
+        ],
+        "skillsets": {
+          "stream": 48.78,
+          "jumpstream": 39.14,
+          "handstream": 41.46,
+          "stamina": 49.86,
+          "jackspeed": 31.54,
+          "chordjack": 33.14,
+          "technical": 50.07
+        },
+        "duration_s": 142.10000610351562,
+        "note_count": 4449        
       }
     },
     "stamina": {
@@ -1753,6 +1816,27 @@
         },
         "duration_s": 134.6999969482422,
         "note_count": 3199
+},
+      "Lambda": {
+        "role_score": 52.713,
+        "overall_msd": 54.08,
+        "sample_count": 1,
+        "dispersion": 0.0,
+        "risk_flag": "weak",
+        "sample_scores": [
+          52.713
+        ],
+        "skillsets": {
+          "stream": 42.66,
+          "jumpstream": 44.42,
+          "handstream": 53.63,
+          "stamina": 52.32,
+          "jackspeed": 35.78,
+          "chordjack": 35.7,
+          "technical": 45.62
+        },
+        "duration_s": 134.6999969482422,
+        "note_count": 3199        
       }
     }
   },
@@ -1913,10 +1997,18 @@
       "Kappa": {
         "lower": 46.87,
         "center": 47.89,
-        "upper": 57.468,
+        "upper": 48.468,
         "sample_count": 1,
         "dispersion": 0.0,
         "risk_flag": "weak"
+},
+      "Lambda": {
+        "lower": 48.468,
+        "center": 49.89,
+        "upper": 50.468,
+        "sample_count": 1,
+        "dispersion": 0.0,
+        "risk_flag": "weak"        
       }
     },
     "speed": {
@@ -2075,11 +2167,18 @@
       "Kappa": {
         "lower": 44.75,
         "center": 47.21,
-        "upper": 56.652,
+        "upper": 48.652,
         "sample_count": 1,
         "dispersion": 0.0,
         "risk_flag": "weak"
-      }
+},
+      "Lambda": {
+        "lower": 48.652,
+        "center": 49.21,
+        "upper": 50.652,
+        "sample_count": 1,
+        "dispersion": 0.0,
+        "risk_flag": "weak"      
     },
     "tech": {
       "1st": {
@@ -2237,10 +2336,18 @@
       "Kappa": {
         "lower": 46.35,
         "center": 48.07,
-        "upper": 57.684,
+        "upper": 49.684,
         "sample_count": 1,
         "dispersion": 0.0,
         "risk_flag": "weak"
+},
+      "Lambda": {
+        "lower": 49.684,
+        "center": 50.07,
+        "upper": 51.684,
+        "sample_count": 1,
+        "dispersion": 0.0,
+        "risk_flag": "weak"        
       }
     },
     "stamina": {
@@ -2399,10 +2506,18 @@
       "Kappa": {
         "lower": 49.39,
         "center": 50.713,
-        "upper": 60.856,
+        "upper": 51.856,
         "sample_count": 1,
         "dispersion": 0.0,
         "risk_flag": "weak"
+},
+      "Lambda": {
+        "lower": 51.856,
+        "center": 52.713,
+        "upper": 53.856,
+        "sample_count": 1,
+        "dispersion": 0.0,
+        "risk_flag": "weak"        
       }
     }
   },
