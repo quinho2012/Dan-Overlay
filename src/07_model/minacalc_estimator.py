@@ -51,7 +51,7 @@ _DAN_LABELS = {
     "10th": "10th Dan", "Alpha": "Alpha", "Beta": "Beta",
     "Gamma": "Gamma", "Delta": "Delta", "Epsilon": "Epsilon",
     "Zeta": "Zeta", "Eta": "Eta", "Theta": "Theta",
-    "Iota": "Iota", "Kappa": "Kappa", "Lambda": "Lambda,
+    "Iota": "Iota", "Kappa": "Kappa", "Lambda": "Lambda",
 }
 
 _scales: dict | None = None
