@@ -27,7 +27,7 @@ DAN_ORDER = [
     "1st", "2nd", "3rd", "4th", "5th",
     "6th", "7th", "8th", "9th", "10th",
     "Alpha", "Beta", "Gamma", "Delta", "Epsilon",
-    "Zeta", "Eta", "Theta", "Iota", "Kappa",
+    "Zeta", "Eta", "Theta", "Iota", "Kappa", "Lambda"
 ]
 
 
