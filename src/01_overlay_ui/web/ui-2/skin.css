@@ -271,6 +271,8 @@
   font-weight: 800;
   text-shadow: var(--txt-shadow);
   font-variant-numeric: tabular-nums;
+  flex-shrink: 0;
+  min-width: 0;
 }
 
 .c2-msd-unit {
