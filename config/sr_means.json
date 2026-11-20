@@ -19,7 +19,7 @@
     "Eta": 10.13,
     "Theta": 10.74,
     "Iota": 11.68,
-    "Kappa": 12.25
+    "Kappa": 12.25,
     "Lambda": 13.20
   },
   "skillsets": {
@@ -43,7 +43,7 @@
       "Eta": 10.38,
       "Theta": 10.96,
       "Iota": 12.27,
-      "Kappa": 13.13
+      "Kappa": 13.13,
       "Lambda": 14.60
     },
     "speed": {
@@ -66,7 +66,7 @@
       "Eta": 10.05,
       "Theta": 10.67,
       "Iota": 11.16,
-      "Kappa": 12.05
+      "Kappa": 12.05,
       "Lambda": 13.00
     },
     "stamina": {
@@ -89,7 +89,7 @@
       "Eta": 9.96,
       "Theta": 10.81,
       "Iota": 11.66,
-      "Kappa": 12.41
+      "Kappa": 12.41,
       "Lambda": 13.70
     },
     "tech": {
@@ -112,7 +112,7 @@
       "Eta": 10.25,
       "Theta": 10.64,
       "Iota": 11.69,
-      "Kappa": 12.1
+      "Kappa": 12.1,
       "Lambda": 13.40
     }
   }
