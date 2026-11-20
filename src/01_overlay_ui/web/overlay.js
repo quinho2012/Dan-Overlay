@@ -1907,6 +1907,7 @@ const GREEK_DAN_SYMBOLS = {
   "Theta": "θ",
   "Iota": "ι",
   "Kappa": "κ",
+  "Lambda": "λ",
 };
 
 const NUMERIC_DAN_MAP = {
