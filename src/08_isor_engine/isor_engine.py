@@ -59,11 +59,19 @@ DAN_DISPLAY = {
 }
 
 SUBLEVEL_QUINTILES = [
-    (0.00, 0.20, "Low"),
-    (0.20, 0.40, "Mid-Low"),
+    (0.00, 0.03, "Baseline"),
+    (0.03, 0.10, "Bottom"),
+    (0.10, 0.20, "Bottom-Low"),
+    (0.20, 0.30, "Low"),
+    (0.30, 0.40, "Low-Mid"),
     (0.40, 0.60, "Mid"),
-    (0.60, 0.80, "Mid-High"),
-    (0.80, 1.00, "High"),
+    (0.60, 0.67, "Mid-High"),
+    (0.67, 0.67, "67 haha funny"),
+    (0.67, 0.70, "Mid-High"),
+    (0.70, 0.80, "High"),
+    (0.80, 0.90, "High-Peak"),
+    (0.90, 0.97, "Peak"),
+    (0.97, 1.00, "Skyline"),
 ]
 
 # ── 1. Decoupled Canonical SR Means (1st to Kappa) ───────────────────────────
@@ -73,31 +81,31 @@ SKILLSET_SR_MEANS = {
         "1st": 2.34, "2nd": 2.35, "3rd": 3.17, "4th": 3.48, "5th": 3.98,
         "6th": 4.75, "7th": 4.97, "8th": 5.84, "9th": 5.85, "10th": 6.30,
         "Alpha": 6.45, "Beta": 6.78, "Gamma": 6.95, "Delta": 7.85, "Epsilon": 8.76,
-        "Zeta": 9.35, "Eta": 10.38, "Theta": 10.96, "Iota": 12.27, "Kappa": 13.13
+        "Zeta": 9.35, "Eta": 10.38, "Theta": 10.96, "Iota": 12.27, "Kappa": 13.13, "Lambda":14.13,
     },
     "speed": {
         "1st": 2.94, "2nd": 3.50, "3rd": 3.78, "4th": 4.16, "5th": 4.86,
         "6th": 5.10, "7th": 5.25, "8th": 5.45, "9th": 5.70, "10th": 6.00,
         "Alpha": 6.55, "Beta": 6.80, "Gamma": 7.45, "Delta": 7.76, "Epsilon": 9.16,
-        "Zeta": 9.55, "Eta": 10.05, "Theta": 10.67, "Iota": 11.16, "Kappa": 12.05
+        "Zeta": 9.55, "Eta": 10.05, "Theta": 10.67, "Iota": 11.16, "Kappa": 12.05, "Lambda":13.05,
     },
     "stamina": {
         "1st": 3.38, "2nd": 3.48, "3rd": 3.79, "4th": 4.69, "5th": 5.23,
         "6th": 5.65, "7th": 5.75, "8th": 6.15, "9th": 6.26, "10th": 6.45,
         "Alpha": 6.58, "Beta": 6.88, "Gamma": 7.35, "Delta": 7.85, "Epsilon": 8.92,
-        "Zeta": 9.60, "Eta": 9.96, "Theta": 10.81, "Iota": 11.66, "Kappa": 12.41
+        "Zeta": 9.60, "Eta": 9.96, "Theta": 10.81, "Iota": 11.66, "Kappa": 12.41, "Lambda":13.41,
     },
     "tech": {
         "1st": 2.84, "2nd": 3.08, "3rd": 3.09, "4th": 3.90, "5th": 4.18,
         "6th": 4.50, "7th": 5.43, "8th": 5.69, "9th": 6.31, "10th": 6.55,
         "Alpha": 6.62, "Beta": 6.85, "Gamma": 7.30, "Delta": 8.17, "Epsilon": 9.22,
-        "Zeta": 9.60, "Eta": 10.25, "Theta": 10.64, "Iota": 11.69, "Kappa": 12.10
+        "Zeta": 9.60, "Eta": 10.25, "Theta": 10.64, "Iota": 11.69, "Kappa": 12.10, "Lambda":13.10,
     },
     "general": {
         "1st": 2.94, "2nd": 3.23, "3rd": 3.51, "4th": 4.16, "5th": 4.71,
         "6th": 5.12, "7th": 5.36, "8th": 5.80, "9th": 6.00, "10th": 6.25,
         "Alpha": 6.50, "Beta": 6.80, "Gamma": 7.35, "Delta": 7.85, "Epsilon": 9.00,
-        "Zeta": 9.40, "Eta": 10.13, "Theta": 10.74, "Iota": 11.68, "Kappa": 12.25
+        "Zeta": 9.40, "Eta": 10.13, "Theta": 10.74, "Iota": 11.68, "Kappa": 12.25, "Lambda":13.25,
     }
 }
 
@@ -108,31 +116,31 @@ SKILLSET_CHOKE_MEANS = {
         "1st": 11.5, "2nd": 13.0, "3rd": 14.5, "4th": 16.0, "5th": 18.0,
         "6th": 18.5, "7th": 19.2, "8th": 19.8, "9th": 20.4, "10th": 21.0,
         "Alpha": 25.2, "Beta": 26.5, "Gamma": 28.0, "Delta": 30.0, "Epsilon": 31.8,
-        "Zeta": 35.0, "Eta": 36.5, "Theta": 41.5, "Iota": 45.0, "Kappa": 49.0
+        "Zeta": 35.0, "Eta": 36.5, "Theta": 41.5, "Iota": 45.0, "Kappa": 49.0, "Lambda":53.0,
     },
     "stamina": {
         "1st": 12.9, "2nd": 15.4, "3rd": 15.5, "4th": 17.8, "5th": 23.0,
         "6th": 20.6, "7th": 22.3, "8th": 23.5, "9th": 24.5, "10th": 24.0,
         "Alpha": 24.4, "Beta": 25.5, "Gamma": 28.5, "Delta": 31.4, "Epsilon": 34.0,
-        "Zeta": 38.6, "Eta": 42.7, "Theta": 40.3, "Iota": 45.9, "Kappa": 50.0
+        "Zeta": 38.6, "Eta": 42.7, "Theta": 40.3, "Iota": 45.9, "Kappa": 50.0, "Lambda":54.0,
     },
     "jack": {
         "1st": 10.5, "2nd": 12.0, "3rd": 10.5, "4th": 13.1, "5th": 14.3,
         "6th": 14.4, "7th": 17.9, "8th": 19.5, "9th": 20.5, "10th": 24.8,
         "Alpha": 24.8, "Beta": 26.5, "Gamma": 27.2, "Delta": 31.0, "Epsilon": 34.0,
-        "Zeta": 35.2, "Eta": 39.1, "Theta": 45.0, "Iota": 49.3, "Kappa": 53.7
+        "Zeta": 35.2, "Eta": 39.1, "Theta": 45.0, "Iota": 49.3, "Kappa": 53.7, "Lambda":57.0,
     },
     "tech": {
         "1st": 10.5, "2nd": 12.0, "3rd": 10.5, "4th": 13.1, "5th": 14.3,
         "6th": 14.4, "7th": 17.9, "8th": 19.5, "9th": 20.5, "10th": 21.8,
         "Alpha": 22.5, "Beta": 23.8, "Gamma": 26.0, "Delta": 26.8, "Epsilon": 29.8,
-        "Zeta": 36.0, "Eta": 39.2, "Theta": 39.3, "Iota": 42.4, "Kappa": 46.6
+        "Zeta": 36.0, "Eta": 39.2, "Theta": 39.3, "Iota": 42.4, "Kappa": 46.6, "Lambda":50.6,
     },
     "general": {
         "1st": 11.5, "2nd": 13.5, "3rd": 14.5, "4th": 16.0, "5th": 18.5,
         "6th": 19.5, "7th": 20.5, "8th": 21.5, "9th": 22.5, "10th": 22.8,
         "Alpha": 24.2, "Beta": 25.0, "Gamma": 27.0, "Delta": 30.0, "Epsilon": 32.5,
-        "Zeta": 35.5, "Eta": 38.5, "Theta": 42.0, "Iota": 46.0, "Kappa": 50.5
+        "Zeta": 35.5, "Eta": 38.5, "Theta": 42.0, "Iota": 46.0, "Kappa": 50.5, "Lambda":54.5,
     }
 }
 
