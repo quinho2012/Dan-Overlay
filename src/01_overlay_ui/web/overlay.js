@@ -1963,7 +1963,8 @@ function _getDanColorForSkin9(danLabel, pal) {
   if (danLabel === "Zeta" && pal[1]) return pal[1];
   if (danLabel === "Theta" && pal[1]) return pal[1];
   if (danLabel === "Iota" && pal[1]) return pal[1];
-  if (danLabel === "Kappa" && pal[0]) return pal[0];
+  if (danLabel === "Kappa" && pal[1]) return pal[1];
+  if (danLabel === "Lambda" && pal[0]) return pal[0];
   return pal[0];
 }
 
@@ -2000,7 +2001,7 @@ function _startSkin9ComputingAnimation() {
   if (uiDanName) uiDanName.textContent = "CALCULATING...";
   if (uiTierTag) uiTierTag.textContent = "PROC";
 
-  const GLITCH_SYMBOLS = ['1ST', '2ND', '3RD', '4TH', '5TH', '6TH', '7TH', '8TH', '9TH', '10TH', 'α', 'β', 'γ', 'δ', 'ε', 'ζ', 'η', 'θ', 'ι', 'κ'];
+  const GLITCH_SYMBOLS = ['1ST', '2ND', '3RD', '4TH', '5TH', '6TH', '7TH', '8TH', '9TH', '10TH', 'α', 'β', 'γ', 'δ', 'ε', 'ζ', 'η', 'θ', 'ι', 'κ', 'λ'];
   const MODS = ['--', '-', '', '+', '++'];
 
   clearInterval(_skin9SymbolInterval);
