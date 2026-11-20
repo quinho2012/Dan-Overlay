@@ -398,7 +398,7 @@ def recompute_dp_for_family(sr, sr_result_for_bonus, family):
         "dan_label": label,
         "dan_short": short,
         "sublevel": sublevel,
-        "beyond": dp > 20.5,
+        "beyond": dp > 200.5,
         "family": family,
         "ranking_sr": round(ranking_sr, 4),
     }
@@ -589,7 +589,7 @@ def compute_rank(sr_result, features, classification, domain_info, msd=None):
         "dan_label": dan_label,
         "dan_short": dan_short,
         "sublevel": sublevel,
-        "beyond": dp > 20.5,
+        "beyond": dp > 200.5,
         "confidence": overall_confidence,
         "sr": round(sr, 4),
         "family": family,
