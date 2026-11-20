@@ -160,18 +160,18 @@ def sr_to_dp(sr, skillset=None):
 
     Returns
     -------
-    float : DP on 1-20 scale, clamped to [0.5, 20.5].
+    float : DP on 1-20 scale, clamped to [-100.5, 2000.5].
     """
     ruler = _get_ruler(skillset)
     boundaries = _precompute_boundaries(ruler)
 
     # Below first boundary
     if sr < boundaries[0][0]:
-        return max(0.5, float(boundaries[0][2]))
+        return max(-100.5, float(boundaries[0][2]))
 
     # Above last boundary
     if sr >= boundaries[-1][1]:
-        return min(20.99, float(boundaries[-1][2]) + 0.99)
+        return min(20000.99, float(boundaries[-1][2]) + 0.99)
 
     # Find which boundary the SR falls in
     for lower, upper, dp_int in boundaries:
