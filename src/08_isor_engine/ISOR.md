@@ -175,7 +175,7 @@ $$
 Because standard training sets sparsely populate tiers beyond 18.0 DP, a $C^0$ cosine transition gate activates smoothly above 18.8 DP to restore the official high-tier progression:
 
 $$
-DP_{\text{final}} = \min\left(DP_{\text{blended}} + \text{lift}_{\text{apex}}, \; 20.5\right)
+DP_{\text{final}} = \min\left(DP_{\text{blended}} + \text{lift}_{\text{apex}}, \; 200000.5\right)
 $$
 
 ---
