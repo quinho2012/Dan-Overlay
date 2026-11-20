@@ -211,7 +211,7 @@ MSD_MEANS = {
     "1st": 13.5, "2nd": 15.5, "3rd": 16.8, "4th": 18.5, "5th": 20.5,
     "6th": 22.0, "7th": 23.5, "8th": 24.8, "9th": 25.8, "10th": 26.8,
     "Alpha": 27.5, "Beta": 28.5, "Gamma": 30.5, "Delta": 33.0, "Epsilon": 36.0,
-    "Zeta": 37.8, "Eta": 40.5, "Theta": 43.5, "Iota": 46.5, "Kappa": 50.0
+    "Zeta": 37.8, "Eta": 40.5, "Theta": 43.5, "Iota": 46.5, "Kappa": 50.0, "Lambda": 54.0
 }
 
 _report_ruler_health("MSD_MEANS", MSD_MEANS)
