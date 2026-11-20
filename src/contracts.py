@@ -43,8 +43,8 @@ def _compute_dan_range(dp, confidence):
         return None
     # Uncertainty band widens as confidence drops
     spread = (1.0 - confidence) * 1.5  # at conf=0 → ±1.5 dp
-    lo = max(0.5, dp - spread)
-    hi = min(20.5, dp + spread)
+    lo = max(-100.0, dp - spread)
+    hi = min(200.5, dp + spread)
     label_lo = _dp_to_short(lo)
     label_hi = _dp_to_short(hi)
     if label_lo == label_hi:
